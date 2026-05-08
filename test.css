@@ -1,0 +1,21 @@
+.texte-rouge {
+    color: red;
+}
+.fond-jaune {
+    background: yellow;
+}
+.grande-bordure {
+    border : 3px solid black;
+    padding : 10px;
+}
+
+#titre-unique {
+    color: violet;
+    font-size: 48px;
+    text-align: center;
+}
+#menu {
+    background: #333;
+    padding: 20px;
+}
+animate__backOutRight
