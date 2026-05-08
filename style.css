@@ -1,0 +1,22 @@
+.grande-bordure {
+    border: 3px solid black;
+}
+.texte-blue{
+    color: blue;
+}
+.marge-interior{
+    padding: 10px;
+}
+.marge-exterior{
+    margin: 20px;
+}
+
+p{
+    color: yellow;
+    background-color: lightslategrey;
+}
+
+#mon-div span{
+    color: red;
+    font-weight: bold;
+}
