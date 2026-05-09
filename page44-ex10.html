@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <title>Ex10</title>
+    </head>
+    <body>
+        <form method="post" action="backend/nom-traitement">
+            <label for="nom">Nom</label>
+            <input type="text" name="nom" id  = "nom" placeholder="Entrer le nom">
+            <button type="submit">Envoyer</button>
+        </form>
+        <form method="post" action="backend/pass-traitement">
+            <label for="pass">Pass</label>
+            <input type="password" name="pass" id  = "pass" placeholder="Entrer le pass">
+            <button type="submit">Envoyer</button>
+        </form>
+        <form method="post" action="backend/mail-traitement">
+            <label for="mail">Email</label>
+            <input type="email" name="mail" id  = "mail" placeholder="Entrer le mail">
+            <button type="submit">Envoyer</button>
+        </form>
+        <form method="post" action="backend/number-traitement">
+            <label for="number">nombre</label>
+            <input type="number" name="number" id  = "number" placeholder="Entrer le nombre">
+            <button type="submit">Envoyer</button>
+        </form>
+        <form method="post" action="backend/url-traitement">
+            <label for="url">url</label>
+            <input type="url" name="url" id  = "url" placeholder="Entrer le url">
+            <button type="submit">Envoyer</button>
+        </form>
+        <form method="post" action="backend/tel-traitement">
+            <label for="tel">Tel</label>
+            <input type="tel" name="tel" id  = "tel" placeholder="Entrer le tel">
+            <button type="submit">Envoyer</button>
+        </form>
+        <form method="post" action="backend/range-traitement">
+            <label for="range">range</label>
+            <input type="range" name="range" id  = "range" min="0" max="100" step="10">
+            <button type="submit">Envoyer</button>
+        </form>
+        <form method="post" action="backend/color-traitement">
+            <label for="color">color</label>
+            <input type="color" name="color" id  = "color" placeholder="Entrer le color">
+            <button type="submit">Envoyer</button>
+        </form>
+        <form method="post" action="backend/date-traitement">
+            <label for="date">date</label>
+            <input type="date" name="date" id  = "date" placeholder="Entrer le date">
+            <button type="submit">Envoyer</button>
+        </form>
+        <form method="post" action="backend/checkbox-traitement">
+            <input type="checkbox" id="ue1" name="ue1" />
+            <label for="ue1">UE1</label>
+
+            <input type="checkbox" id="ue2" name="ue2" />
+            <label for="ue2">UE2</label>
+            <button type="submit">Envoyer</button>
+        </form>
+        <form method="post" action="backend/radio-traitement">
+            <input type="radio" id="ue3" name="ue" />
+            <label for="ue3">UE3</label>
+
+            <input type="radio" id="ue4" name="ue" />
+            <label for="ue4">UE4</label>
+            <button type="submit">Envoyer</button>
+        </form>
+        <form method="post" action="backend/texarea-traitement">
+            <label for="texarea">texarea</label>
+            <textarea name="texarea" id  = "texarea" >ton message</textarea>
+            <button type="submit">Envoyer</button>
+        </form>
+        <form method="post" action="backend/select-traitement">
+            <select id="choix">
+                <option value="1">Option 1</option>
+                <option value="2">Option 2</option>
+                <option value="3">Option 3</option>
+            </select>
+            <button type="submit">Envoyer</button>
+        </form>
+    </body>
+</html>

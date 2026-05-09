@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8" />
+        <title>Page 44</title>
+    </head>
+    <body>
+        <form method="post" action="backend/mon-traitement">
+        </form>
+        <form method="get" action="backend/get-traitement">
+        </form>
+        <form method="get" action="backend/ex-traitement">
+            <label for="nom">Nom</label>
+            <input type="text"  name="nom" id  = "nom" placeholder="Entrer le nom"
+                   required
+                   maxlength="25"/>
+            <button type="submit">Envoyer</button>
+        </form>
+        <form method="get" action="backend/ex7-traitement">
+            <label for="hobby">hooby</label>
+            <input type="text" name="hobby" id  = "hobby" placeholder="Entrer le hobby"
+                   required
+                   maxlength="30" minlength="15"/>
+            <button type="submit">Envoyer</button>
+        </form>
+        <form method="post" action="backend/pass-traitement">
+            <label for="pass">Password</label>
+            <input type="password" name="pass" id  = "pass" placeholder="Entrer le password"
+                required
+                maxlength="25"/>
+            <button type="submit">Envoyer</button>
+        </form>
+        <form method="post" action="backend/number-traitement">
+            <label for="number">nombre</label>
+            <input type="number" name="number" id  = "number" placeholder="Entrer le nombre"
+            min="10"/>
+            <button type="submit">Envoyer</button>
+        </form>
+        <form method="post" action="backend/number-traitement">
+            <label for="numbermax">nombremax</label>
+            <input type="number" name="number" id  = "numbermax" placeholder="Entrer le nombre"
+                   max="15"/>
+            <button type="submit">Envoyer</button>
+        </form>
+        <form method="post" action="backend/checkbox-traitement">
+            <input type="checkbox" id="ue1" name="ue1" />
+            <label for="ue1">UE1</label>
+
+            <input type="checkbox" id="ue2" name="ue2" />
+            <label for="ue2">UE2</label>
+
+            <input type="checkbox" id="ue3" name="ue3" />
+            <label for="ue3">UE3</label>
+
+            <input type="checkbox" id="ue4" name="ue4" />
+            <label for="ue4">UE4</label>
+
+            <input type="checkbox" id="ue5" name="ue5" />
+            <label for="ue5">UE5</label>
+            <button type="submit">Envoyer</button>
+        </form>
+        <form method="post" action="backend/radio-traitement">
+            <input type="radio" id="ue1r" name="ue" />
+            <label for="ue1r">UE1r</label>
+
+            <input type="radio" id="ue2r" name="ue" />
+            <label for="ue2r">UE2r</label>
+
+            <input type="radio" id="ue3r" name="ue" />
+            <label for="ue3r">UE3r</label>
+
+            <input type="radio" id="ue4r" name="ue" />
+            <label for="ue4r">UE4r</label>
+
+            <input type="radio" id="ue5r" name="ue" />
+            <label for="ue5r">UE5r</label>
+            <button type="submit">Envoyer</button>
+        </form>
+    </body>
+</html>
