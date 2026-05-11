@@ -1,0 +1,35 @@
+body {
+    background: #1a1a1a;
+    color: #ffffff;
+    padding: 20px;
+}
+header {
+    background: #c0392b;
+    color: #ffffff;
+    padding: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+
+footer{
+    background:#111111;
+    padding: 20px;
+}
+
+nav ul{
+    display: flex;
+    list-style: none;
+}
+
+nav ul li a {
+    color: #ffffff;
+    text-decoration: none;
+    padding: 10px 20px;
+}
+nav ul li a:hover {
+    text-decoration: underline;
+    transform: scale(1.01);
+    display: inline-block;
+}

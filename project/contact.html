@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <title>Contact</title>
+        <link rel="stylesheet" href="style.css">
+    </head>
+    <body>
+        <header>Contact
+            <nav>
+                <ul>
+                    <li><a href="index.html">Accueil</a></li>
+                    <li><a href="marque.html">Marque</a></li>
+                    <li><a href="modeles.html">Modéles</a></li>
+                    <li><a href="contact.html">Contact</a></li>
+                </ul>
+            </nav>
+        </header>
+        <section>
+            <form method="post" action="backend/contact-traitement">
+                <label for="nom">Nom</label>
+                <input type="text" name="nom" id  = "nom" placeholder="Entrer le nom" required> <br/>
+
+                <label for="mail">Email</label>
+                <input type="email" name="mail" id  = "mail" placeholder="Entrer le mail" required> <br/>
+
+                <label for="sujet">Sujet</label>
+                <input type="text" name="sujet" id  = "sujet" placeholder="Entrer le sujet" required> <br/>
+
+                <label for="message">message</label>
+                <textarea name="message" id  = "message" >ton message</textarea > <br/>
+
+                <button type="submit">Envoyer</button>
+            </form>
+        </section>
+        <footer>© 2025 AMG Performance — Tous droits réservés </footer>
+
+    </body>
+</html>
