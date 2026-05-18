@@ -20,24 +20,37 @@
             <h2>Contactez-nous</h2>
             <p>Une question ? Écrivez-nous !</p>
         </div>
-        <section class="contact-center">
-            <div class="spec-card">
-            <form method="post" action="backend/contact-traitement">
-                <label for="nom">Nom</label>
-                <input type="text" name="nom" id  = "nom" placeholder="Entrer le nom" required> <br/>
+        <section>
+            <article>
+                <div class="contact-form">
+                        <h2>Formulaire de contact</h2>
+                    <form method="post" action="backend/contact-traitement">
+                        <label for="nom">Nom</label>
+                        <input type="text" name="nom" id  = "nom" placeholder="Entrer le nom" required> <br/>
 
-                <label for="mail">Email</label>
-                <input type="email" name="mail" id  = "mail" placeholder="Entrer le mail" required> <br/>
+                        <label for="mail">Email</label>
+                        <input type="email" name="mail" id  = "mail" placeholder="Entrer le mail" required> <br/>
 
-                <label for="sujet">Sujet</label>
-                <input type="text" name="sujet" id  = "sujet" placeholder="Entrer le sujet" required> <br/>
+                        <label for="sujet">Sujet</label>
+                        <input type="text" name="sujet" id  = "sujet" placeholder="Entrer le sujet" required> <br/>
 
-                <label for="message">message</label>
-                <textarea name="message" id  = "message" >ton message</textarea > <br/>
+                        <label for="message">message</label>
+                        <textarea name="message" id  = "message" > </textarea > <br/>
 
-                <button type="submit">Envoyer</button>
-            </form>
-            </div>
+                        <button type="submit">Envoyer</button>
+                    </form>
+                </div>
+            </article>
+            <aside>
+                <div class="aside-card">
+                <h3>Nos coordonnées</h3>
+                <ul>
+                    <li>AMG Performance</li>
+                    <li>contact@amg.com</li>
+                    <li>+32 094 032 432</li>
+                    <li>Verviers, Belgique</li>
+                </ul>
+            </div></aside>
         </section>
         <footer>© 2025 AMG Performance — Tous droits réservés </footer>
 

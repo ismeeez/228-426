@@ -94,7 +94,6 @@ footer {
     background: #2c2c2c;
     border-radius: 6px;
     padding: 10px;
-    text-align: center;
 }
 
 .val {
@@ -202,11 +201,51 @@ h2 {
     border-top: 1px solid #3a3a3a;
 }
 
-.contact-center{
-    display: flex;
-    justify-content: center;
-    align-items: center;
+.contact-form{
+    flex: 2;
+    background-color: #2c2c2c;
+    padding: 25px;
+    border-radius: 10px;
+}
 
+label{
+    color: white;
+    display: block;
+    margin-top: 15px;
+    margin-bottom: 5px;
+}
+
+input,
+textarea{
+    width: 100%;
+    padding: 12px;
+    background-color: #2b2b2b;
+    border: 1px solid #444;
+    border-radius: 6px;
+    color: white;
+    font-size: 16px;
+    box-sizing: border-box;
+}
+
+textarea{
+    height: 120px;
+    resize: none;
+}
+
+button{
+    width: 100%;
+    margin-top: 20px;
+    padding: 12px;
+    background-color: transparent;
+    border: 1px solid #666;
+    color: white;
+    border-radius: 6px;
+    cursor: pointer;
+    font-size: 18px;
+}
+
+button:hover{
+    background-color: #e6332a;
 }
 
 @media screen and (max-width: 768px) {
