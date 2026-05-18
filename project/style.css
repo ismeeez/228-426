@@ -117,6 +117,7 @@ footer {
     margin-bottom: 12px;
 }
 
+
 .aside-card h3 {
     font-size: 13px;
     font-weight: 500;
@@ -175,6 +176,9 @@ footer {
     color: #aaa;
 }
 
+h2 {
+    color:  #c0392b;
+}
 
 @media screen and (max-width: 768px) {
     section {
